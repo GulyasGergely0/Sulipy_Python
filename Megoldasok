@@ -2,4 +2,28 @@
 
 Feltételes Utasítások
 
-1.1 Feladat
+1.1, 1.2. Feladat
+
+kerdes = input("Jó napod volt ma? (Igen/Nem)")
+if kerdes == "igen":
+    print("Örülök, hogy jó napod volt!")
+elif kerdes == "nem":
+    print("Sajnálom, hogy rossz napod volt!")
+else:
+    print("Sajnos nem értem hogy mit mondasz, légyszi helyesen gépelj!")
+
+2. Feladat
+
+szam = int(input("Adj meg egy számot, és megmondom neked hogy páros vagy páratlan!"))
+if szam % 2 == 0:
+    print("A szám páros!")
+elif szam % 2 == 1:
+    print("A szám páratlan!")
+
+3. Feladat
+import random
+kerdes = input("Gondoltam egy számra 1 és 5 között. Talált ki!")
+rszam = random.randint(1,5)
+if rszam = kerdes:
+    print("Eltaláltad!")
+elif rszam
